@@ -63,8 +63,8 @@ public class CalculatorUI {
         return input;
     }
 
-    private void showError(String meessage) {
-        System.out.println("Error: " + meessage);
+    private void showError(String message) {
+        System.out.println("Error: " + message);
     }
 
 }
