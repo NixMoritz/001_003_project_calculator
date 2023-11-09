@@ -9,6 +9,7 @@ implementieren. Die Implementierung wird von Auszubildenden im Team durchgeführ
 ### 2.1 Allgemeine Anforderungen
 
 - Jeder Auszubildende soll eines der Features des CalculatorOperations-Interfaces implementieren.
+- Jedes Feature muss mit JUnit-Tests Qualitäts gesichert werden.
 - Die Auszubildenden verwenden GitHub zur Zusammenarbeit.
 
 ### 2.2 Spezifische Anforderungen
