@@ -52,7 +52,7 @@ public class CalculatorUI {
 
     private void showMainMenu() {
         System.out.println("- - - - Calculator - - - - - - - - - - - - - - - - - - - - ");
-        System.out.println("1-Addition, 2-Subtraktion, 4-Multiplication, 3-Division, 5-Prozent, 6-Square, 7-Modulo, 9-Quit");
+        System.out.println("1-Addition, 2-Subtraktion, 3-Multiplication, 4-Division, 5-Prozent, 6-Square, 7-Modulo, 9-Quit");
     }
 
     private String selectOperation(String validOptions) {
