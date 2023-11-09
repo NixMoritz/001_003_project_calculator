@@ -17,7 +17,7 @@ public class CalculatorUI {
             showMainMenu();
 
             try {
-                String choice = selectOperation("1234569");
+                String choice = selectOperation("12345679");
 
                 if (choice.equals("9")) {
                     isRunning = false;
@@ -52,7 +52,7 @@ public class CalculatorUI {
 
     private void showMainMenu() {
         System.out.println("- - - - Calculator - - - - - - - - - - - - - - - - - - - - ");
-        System.out.println("1-Addition, 2-Subtraktion, 3-Division, 4-Multiplication, 5-Square, 6-Modulo, 9-Quit");
+        System.out.println("1-Addition, 2-Subtraktion, 3-Division, 4-Multiplication, 5-Prozent, 6-Square, 7-Modulo, 9-Quit");
     }
 
     private String selectOperation(String validOptions) {
